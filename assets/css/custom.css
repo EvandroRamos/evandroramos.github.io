@@ -3,8 +3,14 @@
     src: url('../font/gb.ttf');
 }
 
-h1,p{
+h1{
   font-family: prompt;
+  font-size: 80px;
+}
+
+p{
+  font-family: prompt;
+  font-size: 30%;
 }
 
 
@@ -45,7 +51,8 @@ h1,p{
   background-attachment: fixed;
   background-size: 100% 100vh;
   background-repeat: no-repeat;
-  color: white;
+  color: purple;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   text-align: center;
   height: 100vh;
 }
