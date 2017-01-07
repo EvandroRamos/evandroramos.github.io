@@ -52,7 +52,7 @@ p{
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   color: purple;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
   text-align: center;
   height: 100vh;
 }
