@@ -26,16 +26,16 @@ p{
 
 .section{
   height: 100vh;
-  background-color: #586c96;
-  color: black;
+  background-color: #1e2b6a;
+  color: #aeaeae;
   padding-left: 10px;
   padding-right: 10px;
 
 }
 
 .section:nth-child(odd){
-  background-color: #714670;
-  color: whitesmoke;
+  background-color: #583157;
+  color: #aeaeae;
 }
 
 
