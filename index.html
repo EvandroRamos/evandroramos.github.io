@@ -1,62 +1,386 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang = "en">
+    <title>Ana's Webpage</title>
 
-    <head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="stylesheet" href="assets/css/nav.css"/>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
 
-        <meta charset = "UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/contact.js"></script>
 
-        <title>Evandro Ramos</title>
-        <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.twitter').tooltip();
+            $('.fb').tooltip();
+            $('.instagram').tooltip();
+            $('.linkedin').tooltip();
+        });
 
-        <link rel = "stylesheet" href = "assets/booststrap/css/bootstrap.min.css"/>
-        <link rel = "stylesheet" href = "assets/css/style.css"/>
-
-    </head>
-
-    <body>
-
-        <ul class="topnav" id="myTopnav">
-            <li><a class="active" href="https://evandroramos.github.io/"><span class="glyphicon glyphicon-home" ></span></a></li>
-            <li><a href="1"><span class="glyphicon glyphicon-sunglasses" ></span> About</a></li>
-            <li><a href="2"><span class="glyphicon glyphicon-qrcode" ></span> Technology</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-education" ></span> Experience</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-screenshot" ></span> Objectives</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-envelope" ></span> Contact</a></li>
-            <li class="icon">
-                <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-            </li>
-        </ul>
+    </script>
 
 
-        <div  class="banner" id="1">
-            <div style="margin: 0 auto">
-                <div>
-                    <h1>Resume</h1>
-                    <p>This will soon contain my resume.</p>
-                </div>
+</head>
+<body>
+<div class="container-fluid">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="myNav">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home_top">
+
+
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#about"><span class="glyphicon glyphicon-sunglasses"></span> About</a></li>
+                    <li><a href="#technologies"><span class="glyphicon glyphicon-qrcode"></span> Technologies</a></li>
+                    <li><a href="#experiences"><span class="glyphicon glyphicon-education"></span> Experiences</a></li>
+                    <li><a href="#objectives"><span class="glyphicon glyphicon-screenshot"></span> Objectives</a></li>
+                    <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span
+                                class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp Social<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a target="_blank" href="https://twitter.com/evan_ramos"><span
+                                    class="glyphicon glyphicon-comment" aria-hidden="true"></span> twitter</a></li>
+                            <!--<li><a target="_blank" href="http://soundcloud.com/"><span
+                                    class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> soundcloud</a></li>
+                            -->
+                            <li><a target="_blank" href="http://facebook.com/write2evan"><span
+                                    class="glyphicon glyphicon-user" aria-hidden="true"></span> facebook</a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/evanarmstrong/"><span
+                                    class="glyphicon glyphicon-camera" aria-hidden="true"></span> instagram</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/user/MrEvanRamos"><span
+                                    class="glyphicon glyphicon-film" aria-hidden="true"></span> youtube</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</div>
+
+<div class="content" data-spy="scroll" data-target="#myNav">
+
+
+    <div class="row  section" id="home_top">
+
+
+        <div class="col-md-12 social">
+            <h1>Welcome to Evan's webpage!</h1>
+            <br/>
+            <img src="img/ana.png"/>
+            <br/><br/><br/>
+            <p>Please scroll down or click on the sections you'd like to see...</p>
+        </div>
+
+    </div>
+
+
+    <!--
+
+
+
+    <div class="row  " id="home_bottom">
+
+      <div class="col-md-3 social">
+
+          <img class="twitter" src="img/twitter.png" data-toggle="tooltip" data-placement="top" title="@anazard on Twitter"/>
+
+      </div>
+
+      <div class="col-md-3 social">
+
+          <img src="img/fb.png" data-toggle="tooltip" class="fb" data-placement="top" title="@anazards on Facebook"/>
+
+      </div>
+
+      <div class="row  " id="home_bottom">
+
+        <div class="col-md-3 social">
+
+            <img src="img/instagram.png" class="instagram" data-placement="top" title="@anazard on Instagram" />
+
+        </div>
+
+        <div class="col-md-3 social">
+
+            <img src="img/linkedin.png" class="linkedin" data-placement="top" title="@anazard on Linkedin" />
+
+        </div>
+
+
+
+    </div>
+    </div> -->
+    <div class="row ctnr section" id="about">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-education" aria-hidden="true"></span> About</h2>
+
+        </div>
+
+        <div class="col-md-7 justified">
+
+            I have been an IT enthusiast since I first used a computer back in the 90's.
+            <br><br>
+            Since I got into university (Faculdade de Tecnologia de Taquaritinga) for Systems Analysis and Development
+            in 2012, I've become particularly interested in software engineering and development. Toronto, Canada is
+            what I called home for over a year starting in 2014, going to York University for Academic English classes
+            and Computer Science later on. I also took English classes at California State University Fullerton, in
+            2013.
+            <br><br>
+            Currently, web development is mostly what I do, along with playing instruments, collecting CDs, going to
+            concerts, taking the TTC (yeah, I'm a subway enthusiast) and related stuff.
+
+        </div>
+
+    </div>
+    <div class="row ctnr section" id="technologies">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Technologies</h2>
+            These are the technologies I've worked with before:
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="topic">
+
+                <li class='list'>PHP</li>
+                <li class='list'>CSS</li>
+                <li class='list'>jQuery</li>
+                <li class='list'>JavaScript</li>
+                <li class='list'>Bootstrap</li>
+                <li class='list'>Ajax</li>
+                <li class='list'>Python</li>
+                <li class='list'>Flask</li>
+                <li class='list'>Swift</li>
+                <li class='list'>MySQL</li>
+                <li class='list'>Unity 3D</li>
+                <li class='list'>Twitter API</li>
+                <li class='list'>AngularJS</li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="row ctnr section" id="experiences">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Professional XP</h2>
+
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="justified">
+
+                <li><strong>Hewlett-Packard Enterprise as Software Engineer (currently)</strong><br>
+                    Currently working with Vagrant, Puppet and Ruby to develop integration between 3rd party
+                    applications and HP technology. More to be described soon.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2></h2>
+
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="justified">
+
+                <li><strong>IBM Canada / Big Data University as Software Engineering Intern (2015)</strong><br>
+                    The role consisted in the development of an application using the company's technology to support
+                    it. The result was a web application written in Python (Flask) that allows its users to create
+                    communities and topics using their Twitter account, creating a new kind of interaction through
+                    Twitter.
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+    <div class="row ctnr section" id="objectives">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Research</h2>
+            These are the technologies I've worked with before followed by the knowledge level
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="justified">
+
+                <li><strong>GPES (stands for Software Engineering Research Group, in Portuguese)</strong><br>
+                    Research group on Software Engineer which studies all aspects of software development; from the
+                    requirements acquisition to its implementation and support. The main projects I took part in were a
+                    catalog of articles for the State University of Sao Paulo as the final user, and a usability
+                    evaluation of a local company's website. The last resulted in an article you can check on the
+                    following link.
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="row ctnr section" id="interests">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span> Interests</h2>
+            These are the technologies I've worked with before followed by the knowledge level
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="topic">
+
+                <li>Arduino</li>
+                <li>Virtual Reality</li>
+                <li>User Experience</li>
+                <li>Sound Processing</li>
+                <li>Musical Instruments</li>
+                <li>French Learning</li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="row ctnr section" id="volunteer">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Volunteering</h2>
+
+
+        </div>
+
+        <div class="col-md-7">
+
+            <ul class="justified">
+
+                <li><strong>Toronto 2015 Pan Am Games</strong><br>
+                    I've been a volunteer at the games as a venue manager, whose job is basically cycling through some
+                    positions such as taking care of lines and making sure the visitors had been informed enough.
+                </li>
+
+                <li><strong>Techalicious Toronto</strong><br>
+                    I teached a workshop on building your own Twitter client using Flask and Twitter API on Dec. 11 2015
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="row ctnr section" id="contact">
+
+        <div class="col-md-3 col-md-offset-1">
+
+            <h2><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</h2>
+
+        </div>
+
+        <div class="col-md-7 justified">
+
+            <form id="frm_contact">
+
+                <fieldset>
+
+                    Please fill out the form below, or feel free to contact me over e-mail <a
+                        href="mailto:evandro_ramso@outlook.com"><span class="badge">evandro_ramos@outlook.com</span></a>.
+
+                    <hr>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" maxlength="100" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" maxlength="100" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" maxlength="1000" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Confirm</button>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Thank you!</h4>
+            </div>
+            <div class="modal-body">
+                Your message has been sent. I will be replying as soon as I can. Thank you! - anazard :)
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
+    </div>
+</div>
 
-        <div  class="pages" id="2">
-
-        </div>
-
-        <div></div>
-
-
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
-
-    </body>
-
+</body>
 </html>
