@@ -84,7 +84,7 @@ a{
 }
 
 a:hover{
-  color: lightgray !important;
+  color: white !important;
 }
 
 aside {
@@ -120,4 +120,9 @@ button {
 }
 #name, #email {
   width: 50%;
+}
+.navbar{
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 2px 1px 5px black;
 }
