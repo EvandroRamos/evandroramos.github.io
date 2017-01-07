@@ -52,17 +52,10 @@ p{
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   color: purple;
-  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+  text-shadow: -1px 0 #3f003f, 0 1px #3f003f, 1px 0 #3f003f, 0 -1px #3f003f;
   text-align: center;
   height: 100vh;
 }
-
-/*#home_bottom{
-  height:25vh;
-  text-align: center;
-  background-color: white;
-  color: white;
-}*/
 
 .social{
   position: relative;
