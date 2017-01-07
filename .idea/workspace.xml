@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92920f39-67fa-4bcd-be95-bfacf8f17c5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/bg.jpg" afterPath="$PROJECT_DIR$/assets/img/bg.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -233,7 +233,7 @@
       <workItem from="1483803935043" duration="8903000" />
       <workItem from="1483814636766" duration="2458000" />
       <workItem from="1483817343603" duration="414000" />
-      <workItem from="1483823393384" duration="1143000" />
+      <workItem from="1483823393384" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1483776391276</created>
@@ -246,7 +246,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14349000" />
+    <option name="totallyTimeSpent" value="15464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
