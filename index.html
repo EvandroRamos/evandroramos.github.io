@@ -92,7 +92,7 @@
 <div class="content" data-spy="scroll" data-target="#myNav">
 
 
-    <div class="row  section" id="home_top">
+    <div class="row  section" id="home_top" style="min-height: 1000px">
 
 
         <div class="col-md-12 social">
@@ -158,7 +158,7 @@
         </div>
 
     </div>
-    <div class="row ctnr section" id="experiences">
+    <div class="row ctnr section" id="experiences" style="min-height: 900px">
 
         <div class="col-md-3 col-md-offset-1">
 
@@ -289,7 +289,7 @@
         </div>
 
     </div>
-    <div class="row ctnr section" id="contact">
+    <div class="row ctnr section" id="contact" style="min-height: 900px">
 
         <div class="col-md-3 col-md-offset-1">
 
@@ -301,7 +301,7 @@
 
             <ul class="justified">
 
-                <fieldset>
+                <fieldset  class = "contactFieldSet">
 
                     Please fill out the form below, or feel free to contact me over e-mail <a
                         href="mailto:evandro_ramso@outlook.com"><span class="badge">evandro_ramos@outlook.com</span></a>.
@@ -321,28 +321,28 @@
 
                         <fieldset class="pure-group">
                             <label for="name">Name: </label>
-                            <input id="name" name="name" placeholder="What your Mom calls you"/>
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="message">Message: </label>
-                            <textarea id="message" name="message" rows="3"
-                                      placeholder="Tell us what's on your mind..."></textarea>
+                            <input style= "border-radius: 15px" id="name" name="name" placeholder="What your Mom calls you"/>
                         </fieldset>
 
                         <fieldset class="pure-group">
                             <label for="email"><em>Your</em> Email Address:</label>
-                            <input id="email" name="email" type="email" value=""
-                                   required placeholder="your.name@email.com"/>
-                            <span id="email-invalid" style="visibility:hidden">
-                                    Must be a valid email address</span>
+                            <input style= "border-radius: 15px" id="email" name="email" type="email" value="" required placeholder="your.name@email.com"/>
+                            <span id="email-invalid" style="visibility:hidden">Must be a valid email address</span>
                         </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="message">Message: </label>
+                            <textarea style= "border-radius: 15px" id="message" name="message" rows="3"
+                                      placeholder="Tell us what's on your mind..."></textarea>
+                        </fieldset>
+
                         <!--
                             <fieldset class="pure-group">
                                 <label for="color">Favourite Color: </label>
                                 <input id="color" name="color" placeholder="green"/>
                             </fieldset>
                         -->
+
                         <button class="button-success pure-button button-xlarge">
                             <i class="fa fa-paper-plane"></i>&nbsp;Send
                         </button>

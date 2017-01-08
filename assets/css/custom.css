@@ -13,8 +13,6 @@ p{
   font-size: 30px;
 }
 
-
-
 .content{
   position:relative;
   overflow: auto;
@@ -80,13 +78,6 @@ a:hover{
   color: white !important;
 }
 
-aside {
-  background: #1f8dd6; /* same color as selected state on site menu */
-  padding: 0.3em 1em;
-  border-radius: 3px;
-  color: #fff;
-  margin-bottom: 2em;
-}
 textarea {
   width: 100%;
 }
@@ -112,10 +103,17 @@ button {
   float: right;
 }
 #name, #email {
-  width: 50%;
+  width: 100%;
 }
 .navbar{
     background-color: #fff;
     background-color: rgba(0,0,0,0.8);
     box-shadow: 2px 1px 5px black;
+}
+
+.contactFieldSet{
+  border: none;
+}
+.pure-group label{
+  margin-left: 15px;
 }
