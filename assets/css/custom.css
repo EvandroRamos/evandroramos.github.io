@@ -46,6 +46,7 @@ p{
 #home_top{
   background-color: black;
   background-image: url('../img/bg.jpg');
+  min-height: 1000px;
   background-attachment: fixed;
   background-size: 100% 100vh;
   background-repeat: no-repeat;
