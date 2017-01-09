@@ -44,9 +44,8 @@ p {
     background-color: black;
     background-image: url('../img/bg.jpg');
     background-attachment: fixed;
-    background-size: 100% 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 1000px;
     color: purple;
     text-shadow: -1px 0 #3f003f, 0 1px #3f003f, 1px 0 #3f003f, 0 -1px #3f003f;
     text-align: center;
