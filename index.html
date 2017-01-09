@@ -15,7 +15,13 @@
     <script type="text/javascript" src="assets/js/contact.js"></script>
 
     <script type="text/javascript">
+
         $(document).ready(function () {
+            $(document).on('click','#bs-example-navbar-collapse-1',function(e) {
+                if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+                    $(this).collapse('hide');
+                }
+            });
             $('.twitter').tooltip();
             $('.fb').tooltip();
             $('.instagram').tooltip();
@@ -50,6 +56,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
                 <ul class="nav navbar-nav">
 
                     <li><a href="#about"><span class="glyphicon glyphicon-sunglasses"></span> About</a></li>
@@ -96,7 +103,7 @@
 
 
         <div class="col-md-12 social">
-            <h1>Welcome to Mat's webpage!</h1>
+            <h1>Welcome to Evandro's webpage!</h1>
             <br/>
             <img src="assets/img/virus.png" width="200" height="200"/>
             <br/><br/><br/>
