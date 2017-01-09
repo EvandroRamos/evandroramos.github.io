@@ -52,7 +52,10 @@ p {
     color: purple;
     text-shadow: -1px 0 #3f003f, 0 1px #3f003f, 1px 0 #3f003f, 0 -1px #3f003f;
     text-align: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+
 }
 
 .social {
