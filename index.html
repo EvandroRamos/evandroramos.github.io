@@ -76,7 +76,7 @@
 
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span
-                                class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp Social<span
+                                class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp; Social<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a target="_blank" href="https://twitter.com/evan_ramos"><span
@@ -108,14 +108,14 @@
         <div class="col-md-12 social">
             <h1>Welcome to Evandro's webpage!</h1>
             <br/>
-            <img src="assets/img/virus.png" width="200" height="200"/>
+            <img src="assets/img/virus.png" width="200" height="200" alt="Virus"/>
             <br/><br/><br/>
             <h2>Scroll down or click on the sections you'd like to see...</h2>
         </div>
 
     </div>
 
-    <div class="row ctnr section" id="about"style="min-height: 800px">
+    <div class="row ctnr section" id="about" style="min-height: 800px">
 
         <div class="col-md-3 col-md-offset-1">
 
@@ -197,8 +197,6 @@
         </div>
 
         <div class="col-md-3 col-md-offset-1">
-
-            <h2></h2>
 
 
         </div>
@@ -311,68 +309,68 @@
 
             <ul class="justified">
 
-                <fieldset  class = "contactFieldSet">
-
-                    Please fill out the form below, or feel free to contact me over e-mail <a
-                        href="mailto:evandro_ramso@outlook.com"><span class="badge">evandro_ramos@outlook.com</span></a>.
-
-                    <hr>
-                    <!-- START HERE -->
-                    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-                    <!-- Style The Contact Form How Ever You Prefer -->
-                    <link rel="stylesheet"
-                          href="assets/css/custom.css">
 
 
-                    <form id="gform" method="POST" class="pure-form pure-form-stacked"
-                          action=" https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec">
-                        <!-- change the form action to your script url -->
+                Please fill out the form below, or feel free to contact me over e-mail <a
+                    href="mailto:evandro_ramso@outlook.com"><span class="badge">evandro_ramos@outlook.com</span></a>.
 
+                <hr>
+                <!-- START HERE -->
+                <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+                <!-- Style The Contact Form How Ever You Prefer -->
+                <link rel="stylesheet"
+                      href="assets/css/custom.css">
+
+
+                <form id="gform" method="POST" class="pure-form pure-form-stacked"
+                      action=" https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec">
+                    <!-- change the form action to your script url -->
+
+                    <fieldset class="pure-group">
+                        <label for="name">Name: </label>
+                        <input style= "border-radius: 15px; padding-left: 10px" id="name" name="name" placeholder="What your Mom calls you" />
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="email"><em>Your</em> Email Address:</label>
+                        <input style= "border-radius: 15px; padding-left: 10px" id="email" name="email" type="email" value="" required placeholder="your.name@email.com"/>
+                        <span id="email-invalid" style="visibility:hidden">Must be a valid email address</span>
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="message">Message: </label>
+                        <textarea style= "border-radius: 15px; padding-left: 10px" id="message" name="message" rows="10"
+                                  placeholder="Tell us what's on your mind..."></textarea>
+                    </fieldset>
+
+                    <!--
                         <fieldset class="pure-group">
-                            <label for="name">Name: </label>
-                            <input style= "border-radius: 15px; padding-left: 10px" id="name" name="name" placeholder="What your Mom calls you" />
+                            <label for="color">Favourite Color: </label>
+                            <input id="color" name="color" placeholder="green"/>
                         </fieldset>
+                    -->
 
-                        <fieldset class="pure-group">
-                            <label for="email"><em>Your</em> Email Address:</label>
-                            <input style= "border-radius: 15px; padding-left: 10px" id="email" name="email" type="email" value="" required placeholder="your.name@email.com"/>
-                            <span id="email-invalid" style="visibility:hidden">Must be a valid email address</span>
-                        </fieldset>
+                    <button class="button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>&nbsp;Send
+                    </button>
 
-                        <fieldset class="pure-group">
-                            <label for="message">Message: </label>
-                            <textarea style= "border-radius: 15px; padding-left: 10px" id="message" name="message" rows="10"
-                                      placeholder="Tell us what's on your mind..."></textarea>
-                        </fieldset>
+                </form>
 
-                        <!--
-                            <fieldset class="pure-group">
-                                <label for="color">Favourite Color: </label>
-                                <input id="color" name="color" placeholder="green"/>
-                            </fieldset>
-                        -->
+                <!-- Customise the Thankyou Message People See when they submit the form: -->
+                <div style="display:none;" id="thankyou_message">
+                    <h2><em>Thanks</em> for contacting me!
+                        I will get back to you soon!</h2>
+                </div>
 
-                        <button class="button-success pure-button button-xlarge">
-                            <i class="fa fa-paper-plane"></i>&nbsp;Send
-                        </button>
+                <!-- Submit the Form to Google Using "AJAX" -->
+                <script data-cfasync="false" type="text/javascript"
+                        src="assets/js/form-submission-handler.js"></script>
+                <script data-cfasync="false" type="text/javascript"
+                        src="assets/js/form-submission-handler.js"></script>
+                <!-- END -->
 
-                    </form>
 
-                    <!-- Customise the Thankyou Message People See when they submit the form: -->
-                    <div style="display:none;" id="thankyou_message">
-                        <h2><em>Thanks</em> for contacting me!
-                            I will get back to you soon!</h2>
-                    </div>
-
-                    <!-- Submit the Form to Google Using "AJAX" -->
-                    <script data-cfasync="false" type="text/javascript"
-                            src="assets/js/form-submission-handler.js"></script>
-                    <script data-cfasync="false" type="text/javascript"
-                            src="assets/js/form-submission-handler.js"></script>
-                    <!-- END -->
-
-                </fieldset>
 
             </ul>
 
