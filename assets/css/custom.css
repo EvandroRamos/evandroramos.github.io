@@ -44,10 +44,10 @@ p {
     background-color: black;
     background-image: url('../img/bg.jpg');
     background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     background-repeat: no-repeat;
     color: purple;
     text-shadow: -1px 0 #3f003f, 0 1px #3f003f, 1px 0 #3f003f, 0 -1px #3f003f;
