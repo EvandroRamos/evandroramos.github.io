@@ -17,11 +17,6 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $(document).on('click','#bs-example-navbar-collapse-1',function(e) {
-                if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-                    $(this).collapse('hide');
-                }
-            });
             $(document).on('click','#homeSymbol',function(e) {
                 $("#bs-example-navbar-collapse-1").collapse('hide');
             });
@@ -331,7 +326,6 @@
 
                     <hr>
                     <!-- START HERE -->
-                    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
                     <!-- Style The Contact Form How Ever You Prefer -->
                     <link rel="stylesheet" href="assets/css/custom.css">
