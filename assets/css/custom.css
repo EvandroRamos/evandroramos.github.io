@@ -29,6 +29,10 @@ p {
 
 }
 
+.dropdown-menu li a span{
+    margin-right: 10px;
+}
+
 .section:nth-child(odd) {
     background-color: rgb(52, 11, 42);
     color: #aeaeae;
