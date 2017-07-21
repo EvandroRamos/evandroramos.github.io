@@ -17,11 +17,7 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $(document).on('click','#bs-example-navbar-collapse-1',function(e) {
-                if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-                    $(this).collapse('hide');
-                }
-            });
+
             $(document).on('click','#homeSymbol',function(e) {
                 $("#bs-example-navbar-collapse-1").collapse('hide');
             });
@@ -29,6 +25,22 @@
             $('.fb').tooltip();
             $('.instagram').tooltip();
             $('.linkedin').tooltip();
+
+            // Collapse navbar when click in collapsed menu option
+            $(document).click(function (e) {
+                var clickover = $(e.target);
+                var opened = $(".navbar-collapse").hasClass("in");
+                if (opened === true && !clickover.hasClass("navbar-toggle")) {
+                    $("button.navbar-toggle").click();
+                }
+            });
+            $('#social-drop').click(function (e){
+                setTimeout(function (e) {
+                    $('#bs-example-navbar-collapse-1').animate({
+                        scrollTop:164
+                    }, 500);
+                },100);
+            });
         });
 
     </script>
@@ -75,7 +87,7 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="social-drop"><span
                                 class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp; Social<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
