@@ -687,6 +687,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translate3d(0, 0, 0);
 }
 
+
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
@@ -744,6 +745,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: -9px;
     position: relative;
     top: 4px;
+}
+
+@media (max-width: 768px) {
+    #testimonials .profile .pic{
+        margin: 0 auto;
+    }
 }
 
 /* Team Section
