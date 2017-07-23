@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     min-width: 100%;
     min-height: 100vh;
-    background: url(../img/hero-bg.jpg) top center scroll;
+    background: url(../img/hero-bg.jpg) top center fixed;
     background-size: cover;
 }
 
@@ -114,6 +114,9 @@ h1, h2, h3, h4, h5, h6 {
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
+    }
+    #hero{
+        background-attachment: scroll;
     }
 }
 
@@ -516,7 +519,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-text:last-child {
     margin-bottom: 0;
 }
-
+@media (max-width: 768px) {
+    #about .about-container{
+        background-attachment: scroll;
+    }
+}
 /* Services Section
 --------------------------------*/
 #services {
@@ -566,6 +573,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
 }
 
+@media (max-width: 768px) {
+    #services{
+        background-attachment: scroll;
+    }
+}
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
