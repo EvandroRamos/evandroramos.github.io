@@ -519,11 +519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-text:last-child {
     margin-bottom: 0;
 }
-@media (max-width: 768px) {
-    #about .about-container{
-        background-attachment: scroll;
-    }
-}
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -575,6 +571,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
     #services{
+
         background-attachment: scroll;
     }
 }
@@ -620,7 +617,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #3877a0;
     border: 2px solid #3877a0;
 }
-
+@media (max-width: 768px) {
+    #subscribe{
+        background-attachment: scroll;
+    }
+}
 /* Portfolio Section
 --------------------------------*/
 #portfolio {

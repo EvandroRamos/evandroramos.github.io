@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="576" column="13" lean-forward="false" selection-start-line="576" selection-start-column="13" selection-end-line="576" selection-end-column="13" />
+            <state relative-caret-position="701">
+              <caret line="620" column="14" lean-forward="false" selection-start-line="620" selection-start-column="14" selection-end-line="620" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="563">
@@ -76,6 +76,7 @@
       <find>social</find>
       <find>brazil</find>
       <find>url</find>
+      <find>media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,6 +159,11 @@
             <path>
               <item name="evandroramos.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="evandroramos.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="evandroramos.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evandroramos.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -217,12 +223,12 @@
       <workItem from="1500814467213" duration="3555000" />
       <workItem from="1500823355359" duration="3961000" />
       <workItem from="1500830322779" duration="392000" />
-      <workItem from="1500830734165" duration="1307000" />
+      <workItem from="1500830734165" duration="1745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38570000" />
+    <option name="totallyTimeSpent" value="39008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="437" y="44" width="1157" height="1047" extended-state="0" />
@@ -401,11 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/about-img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/hero-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -531,18 +532,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="576" column="13" lean-forward="false" selection-start-line="576" selection-start-column="13" selection-end-line="576" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="476" column="22" lean-forward="true" selection-start-line="476" selection-start-column="22" selection-end-line="476" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/about-img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="620" column="14" lean-forward="false" selection-start-line="620" selection-start-column="14" selection-end-line="620" selection-end-column="14" />
           <folding />
         </state>
       </provider>
