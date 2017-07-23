@@ -106,5 +106,6 @@ jQuery(document).ready(function( $ ) {
       $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
       return false;
   });
+    $(".hero-container").backstretch("img/hero-bg.jpg");
 
 });
