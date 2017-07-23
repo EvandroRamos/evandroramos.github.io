@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     min-width: 100%;
     min-height: 100vh;
-    background: url(../img/hero-bg.jpg) top center fixed;
+    background: url(../img/hero-bg.jpg) top center scroll;
     background-size: cover;
 }
 
@@ -520,10 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center ;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
     background-size: cover;
     padding: 80px 0 60px 0;
 }
