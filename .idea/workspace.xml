@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="en.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="167" column="60" lean-forward="false" selection-start-line="167" selection-start-column="60" selection-end-line="167" selection-end-column="60" />
+            <state relative-caret-position="323">
+              <caret line="226" column="157" lean-forward="false" selection-start-line="226" selection-start-column="157" selection-end-line="226" selection-end-column="157" />
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="br.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="br.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/br.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="716">
               <caret line="165" column="74" lean-forward="false" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
               <folding />
             </state>
@@ -106,8 +106,8 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/en.html" />
         <option value="$PROJECT_DIR$/br.html" />
+        <option value="$PROJECT_DIR$/en.html" />
       </list>
     </option>
   </component>
@@ -149,7 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +161,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,11 +246,12 @@
       <workItem from="1501163743083" duration="1197000" />
       <workItem from="1501559572631" duration="1519000" />
       <workItem from="1502244372438" duration="230000" />
+      <workItem from="1505173906645" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58837000" />
+    <option name="totallyTimeSpent" value="58967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -531,18 +532,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en.html">
+    <entry file="file://$PROJECT_DIR$/br.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="167" column="60" lean-forward="false" selection-start-line="167" selection-start-column="60" selection-end-line="167" selection-end-column="60" />
+        <state relative-caret-position="716">
+          <caret line="165" column="74" lean-forward="false" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/br.html">
+    <entry file="file://$PROJECT_DIR$/en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="165" column="74" lean-forward="false" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
+        <state relative-caret-position="323">
+          <caret line="226" column="157" lean-forward="false" selection-start-line="226" selection-start-column="157" selection-end-line="226" selection-end-column="157" />
           <folding />
         </state>
       </provider>
