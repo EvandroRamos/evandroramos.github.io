@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
     "use strict";
 
     //Contact
-    $('form.contactForm').submit(function(){
+    $('form#contact_form').submit(function(){
         var f = $(this).find('.form-group'),
             ferror = false,
             emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -75,6 +75,34 @@ jQuery(document).ready(function($) {
             }
         });
 
+        if( ferror ) {
+            return false;
+        }
+        else {
+            event.preventDefault();
+            var str = $(this).serialize();
+        }
+
+        $.ajax({
+            crossDomain: true,
+            type: "POST",
+            //url: "https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec",
+            data: str,
+            success: function(msg){
+
+                if(msg["result"] == "success") {
+                    $("#sendmessage").addClass("show");
+                    $("#errormessage").removeClass("show");
+                    $('.contactForm').find("input, textarea").val("");
+                    $('form#contact_form').slideUp(1000);
+                }
+                else {
+                    $("#sendmessage").removeClass("show");
+                    $("#errormessage").addClass("show");
+                    $('#errormessage').html("Menssagem não enviada, tente novamente!");
+                }
+            }
+        });
         return false;
     });
 

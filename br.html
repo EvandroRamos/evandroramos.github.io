@@ -448,37 +448,35 @@
             <div class="col-md-5 col-md-push-2">
                 <div class="form">
 
-                    <form id="gform" action="https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec" method="post" role="form" class="pure-form pure-form-stacked">
+                    <div id="sendmessage">Menssagem enviada com sucesso. Obrigado!</div>
+                    <div id="errormessage"></div>
+
+                    <form id="contact_form"  method="post" class="pure-form pure-form-stacked">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Nome"
-                                   data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                                   data-rule="minlen:3" data-msg="O nome necessita ter pelo menos 3 letras"/>
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email"
-                                   data-rule="email" data-msg="Please enter a valid email"/>
+                                   data-rule="email" data-msg="Insira um email válido"/>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto"
+                                   data-rule="minlen:6" data-msg="O assunto necessita ter pelo menos 6 letras"/>
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                      data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+                                      data-msg="Escreva alguma mensagem" placeholder="Mensagem"></textarea>
                             <div class="validation"></div>
                         </div>
                         <div class="text-center">
-                            <button type="submit">Send Message</button>
+                            <button type="submit">Enviar Mensagem</button>
                         </div>
                     </form>
 
-                    <!-- Customise the Thank you Message People See when they submit the form: -->
-                    <div style="display:none;" id="thankyou_message">
-                        <h2>Sua mensagem foi enviada, obrigado!</h2>
-                    </div>
-
-                    <!-- Submit the Form to Google Using "AJAX" -->
-                    <script data-cfasync="false" type="text/javascript"
-                            src="js/form-submission-handler.js"></script>
-                    <script data-cfasync="false" type="text/javascript"
-                            src="/js/form-submission-handler.js"></script>
                     <!-- END -->
 
                 </div>
@@ -496,7 +494,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
-                    &copy; <strong>Evandro Ramos</strong>. All Rights Reserved
+                    &reg; <strong>Evandro Ramos</strong>. Todos os direitos reservados
                 </div>
             </div>
         </div>
@@ -517,7 +515,7 @@
 
 <!-- Template Specisifc Custom Javascript File -->
 <script src="js/custom.js"></script>
-<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/contactform.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -528,6 +526,7 @@
     ga('send', 'pageview');
 
 </script>
+
 
 </body>
 </html>
