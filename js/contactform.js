@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
         $.ajax({
             crossDomain: true,
             type: "POST",
-            //url: "https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec",
+            url: "https://script.google.com/macros/s/AKfycbzga2b14Osufp-ONdB70uEcgXcLAPZqEW5IgaqT6E0jUl8qSm0/exec",
             data: str,
             success: function(msg){
 
